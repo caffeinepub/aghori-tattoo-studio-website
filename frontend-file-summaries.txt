@@ -1,0 +1,10 @@
+{
+  "frontend/src/App.tsx": "Main application component that wraps the entire single-page website with ThemeProvider (forced dark mode) and renders all sections (Hero, About, Gallery, Contact, Footer) with toast notifications.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with background image overlay, studio name \"AGHORI TATTOO STUDIO\" in large typography, skull icon, call-to-action button, and animated scroll indicator.",
+  "frontend/src/components/About.tsx": "About section featuring studio story, location details (Chhota Shimla), and three feature cards highlighting expert artists, custom designs, and professional service with decorative background elements.",
+  "frontend/src/components/Gallery.tsx": "Responsive gallery grid displaying six tattoo design images with hover effects, clickable dialog modals for full-size viewing, and smooth transitions.",
+  "frontend/src/components/Contact.tsx": "Contact section with studio information card (phone: 8091694910, location) and functional contact form that submits name and message to the backend with loading states and toast notifications.",
+  "frontend/src/components/Footer.tsx": "Simple footer component displaying copyright notice with heart icon and caffeine.ai attribution link.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including useSubmitContactForm mutation for form submissions and useGetAllSubmissions query for retrieving contact data.",
+  "frontend/src/index.css": "Global styles with dark tattoo-themed OKLCH color system featuring deep blacks, dark grays, and vibrant red accent (oklch(0.55 0.25 25)), custom scrollbar styling, and typography settings."
+}
